@@ -211,19 +211,137 @@
             <div class="section-title d-flex justify-content-center my-5 py-5">
                 <h1 class="fw-bolder fs-1">Frequently Asked Questions</h1>
             </div>
+
             <div class="row my-5">
-                <div class="col-sm-12 col-lg-6"></div>
-                <div class="col-sm-12 col-lg-6"><img src="images/people.png" class="img-fluid" alt="people"></div>
+                <div class="col-sm-12 col-lg-6 mt-5">
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item mb-4">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          <strong>What's the difference event design and <br> event planning?</strong>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-4 border-top">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          <strong>How early do we need to start planning an event</strong>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          Some clients may have paid to be placed in our editorial and some of these links may be affiliate; however, we never include a venue, vendor, or product unless they have a proper place here. This is part of our Core Values. We create our website first and foremost to be good for the couples using it to plan their Big Day.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item border-top">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                         <strong>What is your refund and cancellation policy?</strong>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          Some clients may have paid to be placed in our editorial and some of these links may be affiliate; however, we never include a venue, vendor, or product unless they have a proper place here. This is part of our Core Values. We create our website first and foremost to be good for the couples using it to plan their Big Day.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item border-top">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          <strong>How is your budgets on track?</strong>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          Some clients may have paid to be placed in our editorial and some of these links may be affiliate; however, we never include a venue, vendor, or product unless they have a proper place here. This is part of our Core Values. We create our website first and foremost to be good for the couples using it to plan their Big Day.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 d-flex align-items-center mt-5"><img src="images/people.png" class="img-fluid" alt="people"></div>
             </div>
         </section>
         <!-- frequently asked questions end -->
 
+        <!-- valid contact form section start here -->
+
+        <!-- toast start -->
+        <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="d-flex">
+            <div class="toast-body text-black">
+            Hello, world! This is a toast message.
+           </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+        <!-- toast end -->
+
+        <section id="contact-section" class="text-white bg-primary p-3 my-4 ">
+          <div class="title text-center mb-3 ">
+              <h3 class="font-weight-bolder ">CONTACT ME</h3>
+          </div>
+          <form action=" " class="w-50 m-auto was-validated ">
+              <div class="form-group ">
+                  <label for="fullname ">Fullname</label>
+                  <input type="text " class="form-control " required name="fullname ">
+                  <div class="valid-feedback ">Valid</div>
+                  <div class="invalid-feedback ">Please enter your full name as soon as possible</div>
+              </div>
+
+              <div class="form-group ">
+                  <label for="email ">Email</label>
+                  <input type="email " class="form-control " required name="email ">
+                  <div class="valid-feedback ">Valid</div>
+                  <div class="invalid-feedback ">Please enter your email as soon as possible</div>
+              </div>
+
+              <div class="form-group">
+                  <label for="subject ">Subject</label>
+                  <input type="email " class="form-control " name="subject ">
+
+              </div>
+
+              <div class="form-group ">
+                  <label for="massage ">Massage</label>
+                  <textarea style="resize:none; " type="massage " class=" form-control " name="massage " cols="20 " rows="10 "> </textarea>
+              </div>
+              <div class="form-group ">
+
+                  <input type="submit " class="btn-sm btn-danger p-1 mt-2" value="submit ">
+                  <input type="reset " class="btn mt-2 btn-secondary" value="reset ">
+              </div>
+          </form>
+      </section>
+
+      <!-- valid contact form section end here -->
+
     </main>
     <!-- main end -->
-
+    
     <!-- footer start -->
     <footer>
+      <div class="container-fluid bg-black d-flex justify-content-evenly" style="height: 18rem">
 
+        
+      
+      <div class="col-sm-12 col-lg-6 text-white-50 d-flex align-content-center justify-content-center"> 
+        <p class="my-auto">&copy;2022 bike.All rights reserved</p>
+      </div>
+
+      <div class="col-sm-12 col-lg-6 d-flex flex-column">
+       <h4 class="text-white-50 mt-4 mb-0 mx-auto">Get the App</h4>
+        <p class="my-0 py-0 mx-auto"><a href="https://www.apple.com/app-store/" target="blank"><img style="width: 10rem;" src="icons/apple.svg" alt="apple"></a></p>
+        <p class="mx-auto my-0"><a href="https://play.google.com/store/apps/details?id=com.adsk.sketchbook" target="blank"><img class="rounded-3" style="width: 10rem;" src="icons/google.svg" alt="apple"></a></p>
+      </div>
+      
+      </div>
     </footer>
     <!-- footer end -->
 
